@@ -1,9 +1,9 @@
 .testimonial {
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
 
   &__avatar-container {
-    height: 100vw;
+    height: 375px;
 
     display: flex;
     align-items: center;
@@ -13,12 +13,26 @@
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
+
+    @media screen and (min-width: $bp-desktop) {
+      width: 697px;
+      height: 100vh;
+      background-size: unset;
+
+      position: absolute;
+      right: 5rem;
+    }
   }
 
   &__avatar {
     width: 70%;
     border-radius: 1rem;
     box-shadow: 0 2rem 4rem -2rem rgba(blue, .25);
+
+    @media screen and (min-width: $bp-desktop) {
+      width: unset;
+      box-shadow: 0 5rem 10rem -5rem rgba(blue, .25);
+    }
   }
 
   &__content-container {
@@ -34,12 +48,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (min-width: $bp-desktop) {
+      width: 650px;
+      height: 550px;
+      background-size: unset;
+      padding: 6rem 0 0;
+      align-items: flex-start;
+      position: absolute;
+      bottom: 0;
+    }
   }
 
   &__description {
     font-weight: 300;
     text-align: center;
     line-height: 1.4;
+
+    @media screen and (min-width: $bp-desktop) {
+      position: relative;
+      left: 20rem;
+      text-align: unset;
+    }
   }
 
   &__name-wrapper {
@@ -48,6 +78,12 @@
     align-items: center;
 
     margin-top: 2rem;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: unset;
+      position: relative;
+      left: 20rem;
+    }
   }
 
   &__name {
