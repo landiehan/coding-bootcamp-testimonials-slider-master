@@ -88,10 +88,16 @@
 
   &__name {
     font-weight: 700;
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 2rem;
+    }
   }
 
   &__position {
     font-weight: 500;
     color: $grayish-blue;
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 2rem;
+    }
   }
 }

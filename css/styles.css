@@ -174,9 +174,19 @@ body {
 .testimonial__name {
   font-weight: 700;
 }
+@media screen and (min-width: 376px) {
+  .testimonial__name {
+    font-size: 2rem;
+  }
+}
 .testimonial__position {
   font-weight: 500;
   color: #babacf;
+}
+@media screen and (min-width: 376px) {
+  .testimonial__position {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
