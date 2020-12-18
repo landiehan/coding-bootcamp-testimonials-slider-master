@@ -1,0 +1,61 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+
+  &__avatar-container {
+    height: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("../images/pattern-bg.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__avatar {
+    width: 70%;
+    border-radius: 1rem;
+    box-shadow: 0 2rem 4rem -2rem rgba(blue, .25);
+  }
+
+  &__content-container {
+    height: 320px;
+    background-image: 
+      url("../images/pattern-quotes.svg"),
+      url("../images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position: top center, left bottom;
+    background-size: 15%, contain;
+
+    padding: 2.5rem 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__description {
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  &__name-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 2rem;
+  }
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__position {
+    font-weight: 500;
+    color: $grayish-blue;
+  }
+}
