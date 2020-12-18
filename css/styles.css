@@ -15,7 +15,7 @@ body {
   font-family: "Inter", sans-serif;
   color: #202046;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   body {
     font-size: 3.2rem;
   }
@@ -29,7 +29,7 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   .carousel {
     width: 1440px;
     overflow: hidden;
@@ -69,7 +69,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   .carousel__btn-wrapper {
     left: 892px;
     top: 700px;
@@ -104,7 +104,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   .testimonial__avatar-container {
     width: 697px;
     height: 100vh;
@@ -118,7 +118,7 @@ body {
   border-radius: 1rem;
   box-shadow: 0 2rem 4rem -2rem rgba(0, 0, 255, 0.25);
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   .testimonial__avatar {
     width: unset;
     box-shadow: 0 5rem 10rem -5rem rgba(0, 0, 255, 0.25);
@@ -135,7 +135,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   .testimonial__content-container {
     width: 650px;
     height: 550px;
@@ -151,7 +151,7 @@ body {
   text-align: center;
   line-height: 1.4;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   .testimonial__description {
     position: relative;
     left: 20rem;
@@ -164,7 +164,7 @@ body {
   align-items: center;
   margin-top: 2rem;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 376px) {
   .testimonial__name-wrapper {
     display: unset;
     position: relative;
